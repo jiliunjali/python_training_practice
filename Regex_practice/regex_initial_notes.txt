@@ -1,0 +1,18 @@
+"""
+in regex : re module
+
+1--re.compile(pattern, flags=0):
+re.compiler(//regular pattern) -> convert reg. exp to reg. obj and that can be used for matching
+
+2--re.search(pattern, string, flags=0):
+searches the string for pattern provided for matching, it return match object or none(when match is not made)  so, it returns
+
+3--re.match(pattern, string, flags=0):
+check for the first match of pattern from provided string ---- returns match object or else None
+
+4--re.findall(pattern, string, flags=0):
+find the all occurance of pattern in string--- returns list of all matches
+
+5--re.sub(pattern, replacement, string, count=0, flags=0):
+searches for the pattern and then replace that with specified string and returns modified main string
+"""
